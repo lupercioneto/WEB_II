@@ -32,6 +32,9 @@ F) Como a linguagem JavaScript lida com a tipagem de dados?
     JavaScript é uma linguagem de tipagem dinâmica e fraca, ou seja: Os tipos das variáveis são definidos em tempo de execução, mudar seu conteúdo pra outro tipo e ela realiza cnoversões de automáticas de tipo. 
 
 ## Questão 02
+
+    As respostas para as questões 02 e 03 estão localizadas nos seus respectivos diretórios (/questao_02 e /questao_03).
+
 A fim de revisar assuntos de lógica de programação e praticar a sintaxe básica do JavaScript, implemente as soluções para os seguintes problemas, utilizando a linguagem JavaScript:
 
 A) Escreva um programa que leia um valor em R$ (reais) e a cotação atual do dólar americano,
@@ -42,8 +45,6 @@ do raio.
 
 C) Escreva um programa para calcular a nota final de um aluno de curso de graduação do IFCE, sabendo que o semestre letivo é dividido em 2 etapas (N1 e N2) e a nota final é obtida a partir de uma média ponderada das notas obtidas nas 2 etapas. Os pesos para cada etapa são os seguintes: N1, peso 2; N2, peso 3. O programa deve solicitar ao aluno as notas de cada etapa
 e, ao final, o programa deve exibir uma mensagem informando qual a sua nota final e se ele está aprovado ou reprovado, sabendo que a nota mínima para aprovação é 7,0.
-
-- R
 
 D) Dados n números inteiros positivos, calcule e exiba a soma dos que são primos.
 
