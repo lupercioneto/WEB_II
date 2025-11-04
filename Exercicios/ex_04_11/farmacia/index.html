@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Promoção na Farmácia</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="medicine_icon.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Promoção na Farmácia</h2>
+    
+    <form id="formFarmacia">
+        <label for="medicamento">Selecione o medicamento:</label>
+        <select id="medicamento" required>
+            <option value="">-- Escolha um medicamento --</option>
+            <option value="Aspirina">Aspirina</option>
+            <option value="Paracetamol">Paracetamol</option>
+            <option value="Dipirona">Dipirona</option>
+            <option value="Ibuprofeno">Ibuprofeno</option>
+            <option value="Loratadina">Loratadina</option>
+        </select>
+
+        <label for="preco">Preço unitário (R$):</label>
+        <input type="text" id="preco" readonly>
+
+        <br><br>
+        <button type="submit">Calcular Promoção</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html>

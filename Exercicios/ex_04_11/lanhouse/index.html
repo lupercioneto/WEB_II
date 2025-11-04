@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Lan House do Aeroporto</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="control.ico" type="image/x-icon">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <h2>Lan House do Aeroporto</h2>
+    
+    <form id="formLanHouse">
+        <label>Valor por 15 minutos (R$):</label><br>
+        <input type="number" id="valor" step="0.01" min="0" required><br><br>
+
+        <label>Tempo de uso (minutos):</label><br>
+        <input type="number" id="tempo" min="1" required><br><br>
+
+        <button type="submit">Calcular Valor</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html>

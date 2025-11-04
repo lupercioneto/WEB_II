@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Promoção no Supermercado</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="market.ico" type="image/x-icon">
+</head>
+<body>
+    <h2>Promoção no Supermercado</h2>
+
+    <form id="formSupermercado">
+        <label for="produto">Selecione o produto:</label>
+        <select id="produto" required>
+            <option value="">-- Escolha um produto --</option>
+            <option value="Arroz">Arroz 5kg</option>
+            <option value="Feijão">Feijão Carioca 1kg</option>
+            <option value="Macarrão">Macarrão Espaguete 500g</option>
+            <option value="Leite">Leite Integral 1L</option>
+            <option value="Café">Café Torrado e Moído 500g</option>
+        </select>
+
+        <label for="preco">Preço unitário (R$):</label>
+        <input type="text" id="preco" readonly>
+
+        <br><br>
+        <button type="submit">Ver Promoção</button>
+    </form>
+
+    <p id="resultado"></p>
+</body>
+</html>

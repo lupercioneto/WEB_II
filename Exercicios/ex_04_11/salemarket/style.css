@@ -1,0 +1,26 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 30px;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+select, input, button {
+    margin-top: 5px;
+    padding: 6px;
+    font-size: 14px;
+}
+
+.sucesso {
+    color: green;
+    font-weight: bold;
+    margin-top: 15px;
+}
+
+.erro {
+    color: red;
+    margin-top: 15px;
+}

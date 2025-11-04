@@ -1,0 +1,13 @@
+body {
+    font-family: Arial;
+    margin: 20px;
+}
+
+.sucesso {
+    color: green;
+    font-weight: bold;
+}
+
+.erro {
+    color: red;
+}
